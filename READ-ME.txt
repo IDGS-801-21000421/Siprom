@@ -1,9 +1,5 @@
-  =>  Template Name    : Electra - Electrical Website Template
+  =>  Template Name    : SIPROM - Desarrollo de la pagina web de la empresa Siprom-Mantenimiento industrial y residencial 
 
-  =>  Template Link    : https://htmlcodex.com/electrical-website-template
+  =>  Template Author  : SEEM - Edge&Cloud
 
-  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
-
-  =>  Template Author  : HTML Codex
-
-  =>  Author Website   : https://htmlcodex.com
+  =>  Author Website   : https://edgecloud.com.mx  https://seem.com.mx  
