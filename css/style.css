@@ -116,7 +116,7 @@
     content: "";
     position: absolute;
     overflow: hidden;
-    width: 16%;
+    width: 23%;
     height: 100%;
     top: 0;
     left: 0;
@@ -134,7 +134,6 @@
         top: 0;
         right: 0;
         border-bottom: 1px solid var(--bs-primary);
-        background: var(--bs-light);
         z-index: -1;
     }
 
@@ -368,10 +367,10 @@
         content: "";
         position: absolute;
         overflow: hidden;
-        width: 300px;
+        width: 700px;
         height: 600px;
         top: -200px;
-        right: 18px;
+        right: 30px;
         background: var(--bs-light);
         transform: rotate(-18deg);
         z-index: -1;
