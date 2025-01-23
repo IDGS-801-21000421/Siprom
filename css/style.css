@@ -116,11 +116,11 @@
     content: "";
     position: absolute;
     overflow: hidden;
-    width: 23%;
-    height: 100%;
+    width: 11%;
+    height: 90%;
     top: 0;
     left: 0;
-    background: var(--bs-light);
+    background: var(--bs-white);
     z-index: 1;
     }
 
@@ -188,7 +188,7 @@
         height: 200px;
         margin-top: 100px;
         right: 8px;
-        background: var(--bs-light);
+        background: var(--bs-white);
         transform: rotate(-18deg);
         z-index: -1;
     }
@@ -275,7 +275,7 @@
         margin-top: 20px;
         padding-bottom: 20px;
         margin-left: 50px;
-        background: var(--bs-light);
+        background: var(--bs-white);
     }
 
     .navbar .navbar-nav .nav-btn {
@@ -324,7 +324,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: var(--bs-light);
+        background: var(--bs-white);
         border-radius: 10px;
     }
 
@@ -369,7 +369,7 @@
         height: 600px;
         top: -200px;
         right: 30px;
-        background: var(--bs-light);
+        background: var(--bs-white);
         transform: rotate(-18deg);
         z-index: -1;
     }
