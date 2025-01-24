@@ -856,7 +856,7 @@
 
 .faq-section .accordion .accordion-item .accordion-header .accordion-button {
     color: var(--bs-white);
-    background: #cc2c31;
+    background: var(--bs-primary);
     font-size: 18px;
 }
 

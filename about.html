@@ -43,41 +43,42 @@
         <!-- Spinner End -->
         
 
-        <!-- Navbar & Hero Start -->
-        <div class="container-fluid header-top fixed-top bg-white shadow-sm" style="z-index: 1050;">
-            <div class="container d-flex align-items-center mx-auto">
-                <div class="d-flex align-items-center" style="width: 300px; height: -300px;">
+
+         <!-- Navbar & Hero Start -->
+         <div class="container-fluid header-top bg-white content">
+            <div class="container d-flex align-items-center">
+                <div class="d-flex align-items-center h-100">
                     <a href="#" class="navbar-brand" style="height: 125px; width: 100%;">
                         <img src="img/logo_B.png" style="margin-top: -40px;" alt="marca-gto-logo" height="130px" width="130px">
                     </a>
                 </div>
-                
                 <div class="w-100 h-100">
-                    <div class="topbar px-0 py-2 d-none d-lg-block" style="height: 40px;">
+                    <div class="topbar px-0 py-2 d-none d-lg-block" style="height: 45px;">
                         <div class="row gx-0 align-items-center">
-                            <div class="col-lg-4 text-center text-lg-end">
+                            <div class="col-lg-4 text-center">
                                 <div class="d-flex justify-content-md-start">
-                                    <div class="d-flex pe-3">
+                                    <div class="d-flex pe-3" style="margin-top: 10px;">
                                         <a class="btn p-0 text-primary me-3 fs-5" href="#" style="margin-left: 10px;"><i class="fab fa-facebook-f"></i></a>
                                         <a class="btn p-0 text-primary me-3 fs-5" href="#"><i class="fab fa-instagram" style="margin-left: 40px;"></i></a>
-                                        <a class="btn p-0 text-primary me-0 fs-5" href="#"><i class="fab fa-linkedin-in" style="margin-left: 40px;"></i></a>             
+                                        <a class="btn p-0 text-primary me-0 fs-5" href="#"><i class="fab fa-linkedin-in" style="margin-left: 40px;"></i></a>
                                     </div>
-                                    <img src="img/marca-gto-logo.png" alt="marca-gto-logo" height="105px" width="105px" style="position:absolute; right:100px; margin-top: 40px; z-index: 10;"> 
+                                    <img src="img/marca-gto-logo.png" alt="marca-gto-logo" height="105px" width="105px" style="position:absolute; right:100px; margin-top: 115px; z-index: 10;"> 
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
-                    <div class="nav-bar px-0 py-lg-0" style="height: 65px;">
+                    <div class="nav-bar px-0 py-lg-0" style="height: 80px;">
                         <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-lg-end">
-                            <a href="#" class="navbar-brand-2">
+                            <a href="index.html" class="navbar-brand-2">
                                 <img src="img/logo_B.png" style="margin-top:-10px; height: 100px; margin-left: 20px;" alt="marca-gto-logo" height="80px" width="100px"> 
                             </a>  
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                                 <span class="fa fa-bars"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarCollapse">
-                                <div class="navbar-nav mx-0 mx-lg-2 bg-white" style="margin: 10px;">
-                                    <a href="index.html" class="nav-item nav-link fs-6">Inicio</a>
+                                <div class="navbar-nav mx-0 mx-lg-auto bg-white" style="padding-top: 10px;">
+                                    <a href="index.html" class="nav-item nav-link fs-6" style="margin-left: 13px;">Inicio</a>
                                     <a href="about.html" class="nav-item nav-link fs-6 active" style="margin-left: 13px;">Nosotros</a>
                                     <a href="service.html" class="nav-item nav-link fs-6" style="margin-left: 13px;">Servicios</a>
                                     <a href="contact.html" class="nav-item nav-link fs-6" style="margin-left: 13px;">Contacto</a>
@@ -89,13 +90,24 @@
                 </div>
             </div>
         </div>
-        <div style="padding-top: 126px;"></div> <!-- Espaciador para evitar superposición del contenido -->
+
         <!-- Navbar & Hero End -->
 
-        
+        <style>
+            .header-top {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        </style>
+
+
         <!-- Header Start -->
         <div class="container-fluid bg-breadcrumb">
-            <div class="container text-center py-5" style="max-width: 900px;">
+            <div class="container text-center py-5" style="max-width: 900px; margin-top: 120px;">
                 <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Nosotros</h4>
                 <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
@@ -109,26 +121,28 @@
         <!-- Nosotros -->
         <div class="container-fluid about py-5 bg-dark text-white">
             <div class="container py-5">
-                <div class="row align-items-center">                     
-                    <div class="col-lg-6 mb-4 mb-lg-0">
-                        <h1 class="display-4 mb-4 text-light fw-bold">¿Quiénes somos?</h1>
-                        <div class="bg-dark bg-opacity-75 p-4 rounded">
-                            <p class="fs-6">
-                                <strong>Siprom</strong>  es una empresa especializada en mantenimiento industrial 
-                                y residencial, ofreciendo soluciones confiables y de alta calidad 
-                                para garantizar la eficiencia y durabilidad de tus instalaciones. 
-                                Con experiencia y compromiso, transformamos tus necesidades en resultados exitosos.
-                            </p>
-                        </div>
-                    </div>  
-                     <!-- Video -->
-                     <div class="col-12 col-lg-6 wow fadeInRight text-center text-lg-start" data-wow-delay="0.4s">
-                        <video autoplay controls width="100%" height="auto" class="rounded shadow-lg">
-                            <source src="img/video_siprom.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de video.
-                        </video>
-                    </div>         
+            <div class="row align-items-center justify-content-center">    
+                <!-- Video -->
+                <div class="col-12 col-lg-6 wow fadeInRight text-center" data-wow-delay="0.4s">
+                <video autoplay controls width="100%" height="auto" class="rounded shadow-lg">
+                    <source src="img/video_siprom.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+                </div>                     
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+                <h1 class="display-4 mb-4 text-light fw-bold" style="margin-top: 30px;">¿Quiénes somos?</h1>
+                <div class="bg-dark bg-opacity-75 p-4 rounded">
+                    <p class="fs-6">
+                    <strong>Siprom</strong> es una empresa especializada en mantenimiento industrial 
+                    y residencial, ofreciendo soluciones confiables y de alta calidad 
+                    para garantizar la eficiencia y durabilidad de tus instalaciones. 
+                    Con experiencia y compromiso, transformamos tus necesidades en resultados exitosos.
+                    </p>
                 </div>
+                </div>  
+            </div>
             </div>
         </div>
         <!-- Nosotros -->
