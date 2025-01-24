@@ -572,6 +572,17 @@
     z-index: 9;
 }
 
+/* Banner de trabajo électrico */
+.banner2 {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.8)), url(../img/trabajo_electrico.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9;
+}
+
 .banner .container {
     position: relative;
     z-index: 99;
